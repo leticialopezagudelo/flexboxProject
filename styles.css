@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2,
+h3,
+h4,
+h5,
+p {
+    opacity: 1;
+    text-align: center;
+}
+
+header {
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    position: fixed;
+
+    display: flex;
+    align-items: center;
+}
+
+header > img {
+    height: 49px;
+    padding-left: 10px;
+}
+
+header > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    flex: 2 1 90%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header > ul > li {
+    padding: 20px 10px;
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ourMission {
+    height: 700px;
+    padding-top: 70px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ourMissionImage {
+    height: 700px;
+    width: 1200px;
+}
+
+.ourMissionText {
+    width: 1200px;
+    background-color: black;
+    position: absolute;
+    text-align: center;
+    
+}
+
+.tea {
+    width: 1000px;
+    height: 800px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.teaImages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.teaPhotos {
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+
+.locations {
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.locationsImage {
+    height: 500px;
+    width: 1200px;
+}
+
+.locationsText {
+    width: 1200px;
+    position: absolute;
+    padding: 15px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+.locationsAddress {
+    padding-top: 121px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+
+.address {
+    background-color: black;
+    width: 300px;
+    margin: 20px;
+    opacity: 1;
+}
+
+.contact {
+    height: 200px;
+}
+
+
+footer {
+    padding: 20px;
+    align-self: flex-start;
+}
